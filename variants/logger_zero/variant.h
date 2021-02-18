@@ -101,9 +101,6 @@ extern "C"
 #define PIN_A5               (PIN_A0 + 5)
 #define PIN_A6               (PIN_A0 + 6)
 #define PIN_A7               (PIN_A0 + 7)
-#define PIN_A8               (PIN_A0 + 8)
-
-#define TEMP_SENSOR         (PIN_A6)
 
 
 static const uint8_t A0  = PIN_A0 ;
@@ -114,7 +111,6 @@ static const uint8_t A4  = PIN_A4 ;
 static const uint8_t A5  = PIN_A5 ;
 static const uint8_t A6  = PIN_A6 ;
 static const uint8_t A7  = PIN_A7 ;
-static const uint8_t A8  = PIN_A8 ;
 
 #define ADC_RESOLUTION      12
 

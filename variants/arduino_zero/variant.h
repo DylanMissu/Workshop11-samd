@@ -91,13 +91,15 @@ extern "C" unsigned int PINCOUNT_fn();
 /*
  * Analog pins
  */
-#define PIN_A0               (14ul)
-#define PIN_A1               (15ul)
-#define PIN_A2               (16ul)
-#define PIN_A3               (17ul)
-#define PIN_A4               (18ul)
-#define PIN_A5               (19ul)
-#define PIN_DAC0             (14ul)
+#define PIN_A0               (30ul)
+#define PIN_A1               (31ul)
+#define PIN_A2               (32ul)
+#define PIN_A3               (33ul)
+#define PIN_A4               (34ul)
+#define PIN_A5               (35ul)
+#define PIN_A6               (36ul)
+#define PIN_A7               (37ul)
+#define PIN_DAC0             (2ul)
 
 static const uint8_t A0  = PIN_A0;
 static const uint8_t A1  = PIN_A1;
@@ -105,6 +107,8 @@ static const uint8_t A2  = PIN_A2;
 static const uint8_t A3  = PIN_A3;
 static const uint8_t A4  = PIN_A4;
 static const uint8_t A5  = PIN_A5;
+static const uint8_t A6  = PIN_A6;
+static const uint8_t A7  = PIN_A7;
 static const uint8_t DAC0 = PIN_DAC0;
 #define ADC_RESOLUTION		12
 
@@ -161,8 +165,8 @@ static const uint8_t SCL = PIN_WIRE_SCL;
  * USB
  */
 #define PIN_USB_HOST_ENABLE (27ul)
-#define PIN_USB_DM          (28ul)
-#define PIN_USB_DP          (29ul)
+#define PIN_USB_DM          (40ul)
+#define PIN_USB_DP          (43ul)
 
 /*
  * I2S Interfaces

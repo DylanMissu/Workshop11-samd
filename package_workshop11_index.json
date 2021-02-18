@@ -1,0 +1,59 @@
+{
+    "packages": [
+        {
+            "name": "Workshop11 Boards",
+            "maintainer": "Workshop11",
+            "websiteURL": "https://github.com/DylanMissu",
+            "email": "dylan.missu@gmail.com",
+            "platforms": [
+            {
+                "name": "My Board",
+                "architecture": "avr",
+                "version": "1.0.0",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://janedeveloper.org/forum/myboard"
+                },
+                "url": "https://janedeveloper.github.io/myboard/myboard-1.0.0.zip",
+                "archiveFileName": "myboard-1.0.0.zip",
+                "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
+                "size": "15005",
+                "boards": [{ "name": "My Board" }, { "name": "My Board Pro" }],
+                "toolsDependencies": [
+                    {
+                        "packager": "arduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "7-2017q4"
+                    },
+                    {
+                        "packager": "arduino",
+                        "name": "bossac",
+                        "version": "1.7.0-arduino3"
+                    },
+                    {
+                        "packager": "arduino",
+                        "name": "openocd",
+                        "version": "0.10.0-arduino7"
+                    },
+                    {
+                        "packager": "arduino",
+                        "name": "CMSIS",
+                        "version": "4.5.0"
+                    },
+                    {
+                        "packager": "arduino",
+                        "name": "CMSIS-Atmel",
+                        "version": "1.2.0"
+                    },
+                    {
+                        "packager": "arduino",
+                        "name": "arduinoOTA",
+                        "version": "1.2.1"
+                    }
+                ]
+            }
+        ],
+        "tools": []
+      }
+    ]
+  }
