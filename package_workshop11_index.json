@@ -14,7 +14,7 @@
                 "url": "https://github.com/DylanMissu/ArduinoCore-samd/releases/download/0.0.2/Workshop11Core-samd.zip",
                 "archiveFileName": "Workshop11Core-samd.zip",
                 "checksum": "SHA-256:B6D9156699B23EE1D611CDACFBD06DA750933898A883D7A95D318FB9E0AC962D",
-                "size": "4349",
+                "size": "5124071",
                 "boards": [{ "name": "Logger Zero" }],
                 "toolsDependencies": [
                     {
