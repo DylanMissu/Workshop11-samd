@@ -57,13 +57,14 @@ SIZE=$(ARM_GCC_PATH)size
 
 # -----------------------------------------------------------------------------
 # Boards definitions
-BOARD_ID?=arduino_zero
+BOARD_ID?=workshop11_loggerzero
 NAME?=samd21_sam_ba
+microcontroller?=SAMD21J18A
 
 # -----------------------------------------------------------------------------
 # Compiler options
 SAM_BA_INTERFACES?=SAM_BA_BOTH_INTERFACES
-CFLAGS_EXTRA=-D__SAMD21G18A__ -DBOARD_ID_$(BOARD_ID) -D$(SAM_BA_INTERFACES)
+CFLAGS_EXTRA=-D__$(microcontroller)__ -DBOARD_ID_$(BOARD_ID) -D$(SAM_BA_INTERFACES)
 CFLAGS=-mthumb -mcpu=cortex-m0plus -Wall -c -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -nostartfiles --param max-inline-insns-single=500
 ifdef DEBUG
   CFLAGS+=-g3 -O1 -DDEBUG=1
