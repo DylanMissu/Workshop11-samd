@@ -1,24 +1,21 @@
 {
     "packages": [
         {
-            "name": "Workshop11 Boards",
+            "name": "Workshop11",
             "maintainer": "Workshop11",
             "websiteURL": "https://github.com/DylanMissu",
             "email": "dylan.missu@gmail.com",
             "platforms": [
             {
-                "name": "My Board",
-                "architecture": "avr",
+                "name": "Workshop11 Boards",
+                "architecture": "samd",
                 "version": "1.0.0",
                 "category": "Contributed",
-                "help": {
-                    "online": "http://janedeveloper.org/forum/myboard"
-                },
-                "url": "https://janedeveloper.github.io/myboard/myboard-1.0.0.zip",
-                "archiveFileName": "myboard-1.0.0.zip",
-                "checksum": "SHA-256:ec3ff8a1dc96d3ba6f432b9b837a35fd4174a34b3d2927de1d51010e8b94f9f1",
-                "size": "15005",
-                "boards": [{ "name": "My Board" }, { "name": "My Board Pro" }],
+                "url": "https://github.com/DylanMissu/ArduinoCore-samd/releases/download/0.0.1/Workshop11Core-samd.zip",
+                "archiveFileName": "Workshop11Core-samd.zip",
+                "checksum": "SHA-256:9292CCC5AF2751682A2037EA3D318F4DD245BE8608ADD4450AC196174FE330D0",
+                "size": "16325",
+                "boards": [{ "name": "Logger Zero" }],
                 "toolsDependencies": [
                     {
                         "packager": "arduino",
