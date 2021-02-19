@@ -82,8 +82,8 @@ extern "C"
 
 // LEDs
 #define LED_BLUE            (13u)
-#define PIN_LED             PIN_LED_13
-#define LED_BUILTIN         PIN_LED_13
+#define PIN_LED             LED_BLUE
+#define LED_BUILTIN         LED_BLUE
 
 #define LED_PINK            (12u)
 
