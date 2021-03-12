@@ -566,8 +566,8 @@
       (net 33 "Net-(J6-Pad2)") (pinfunction "Pin_2") (pintype "passive") (tstamp 320c0f1b-5880-444b-ac13-8f2b1a2ac591))
     (pad "3" thru_hole circle (at 10.16 0 270) (size 3 3) (drill 1.52) (layers *.Cu *.Mask)
       (net 32 "Net-(J6-Pad3)") (pinfunction "Pin_3") (pintype "passive") (tstamp 5767dfd2-cd05-4a16-8272-aeedc7c25006))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal.step"
-      (offset (xyz 10 0 0))
+    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal.step"
+      (offset (xyz 10.2 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
@@ -3129,8 +3129,8 @@
       (net 31 "Net-(J4-Pad2)") (pinfunction "Pin_2") (tstamp 334cde72-ef7b-4287-a504-13a92bdce776))
     (pad "3" thru_hole circle (at 10.16 0 270) (locked) (size 3 3) (drill 1.52) (layers *.Cu *.Mask)
       (net 30 "Net-(J4-Pad3)") (pinfunction "Pin_3") (tstamp 1352f2e8-109b-40ab-aa28-919db2555767))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal.step"
-      (offset (xyz 10 0 0))
+    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal.step"
+      (offset (xyz 10.2 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
@@ -3892,7 +3892,7 @@
       (net 5 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 8cbe7de0-7941-456e-94ee-c69aa8c6e9ba))
     (pad "2" thru_hole circle (at 5.08 0 270) (locked) (size 3 3) (drill 1.52) (layers *.Cu *.Mask)
       (net 1 "VDC") (pinfunction "Pin_2") (pintype "passive") (tstamp 3d799c56-6429-4aaa-9d8b-a5d89d322050))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal.wrl"
       (offset (xyz 5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
