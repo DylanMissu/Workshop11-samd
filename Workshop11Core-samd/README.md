@@ -9,6 +9,7 @@ TODO
 ## License and credits
 
 This core has been developed by Arduino LLC in collaboration with Atmel.
+This core has been modified by Workshop11.
 
 ```
   Copyright (c) 2015 Arduino LLC.  All right reserved.
