@@ -16,8 +16,8 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#ifndef _VARIANT_SODAQ_EXPLORER_
-#define _VARIANT_SODAQ_EXPLORER_
+#ifndef _VARIANT_LOGGER_ZERO_
+#define _VARIANT_LOGGER_ZERO_
 
 // The definitions here needs a SAMD core >=1.6.10
 #define ARDUINO_SAMD_VARIANT_COMPLIANCE 10610
@@ -243,4 +243,4 @@ extern Uart Serial2;
 #define PAD_SPI_RX                  SERCOM_RX_PAD_0
 
 
-#endif /* _VARIANT_SODAQ_EXPLORER */
+#endif /* _VARIANT_LOGGER_ZERO */
