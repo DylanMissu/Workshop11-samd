@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Libs")(type "KiCad")(uri "${KIPRJMOD}/Libs.kicad_sym")(options "")(descr ""))
+  (lib (name "TC2030-IDC")(type "Legacy")(uri "C:/Users/dylan/Downloads/TC2030-IDC/TC2030-IDC.lib")(options "")(descr ""))
+)
