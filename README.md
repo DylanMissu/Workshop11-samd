@@ -3,6 +3,18 @@
 |---|---|
 |![top](./Hardware/LoRaWAN_SCM_TOP.png) | ![top](./Hardware/LoRaWAN_SCM_BOTTOM.png) |
 
+## Description
+This board was made to help automate steam train management in an NPO. It is used to send status signals to a central server through LoRaWAN so the workers don’t have to go on site and check the states. There will also be an expansion board with relays to switch certain peripherals remotely.
+It is equipped with 6 individual 24v tolerant isolated digital inputs. It can also be powered by 24v DC because it uses a buck converter to step the voltage down to 3.3v
+Here are some other specifications:
+* Microcontroller: ATSAMD21J18
+* Flash: 256KB
+* SRAM: 64KB
+* Frequency: 48MHz
+* ADC: 20-Channel 12bit
+* DAC: Single-Channel 10bit 
+* Pins: 52 GPIO pins
+
 ## This repository contains
 * installation guide
 * usage guide
