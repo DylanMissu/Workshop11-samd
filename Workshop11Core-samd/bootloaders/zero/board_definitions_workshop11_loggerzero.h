@@ -1,5 +1,5 @@
 /*
-  Copyright (c) 2016 Arduino LLC.  All right reserved.
+  Copyright (c) 2016 SODAQ.  All right reserved.
 
   This library is free software; you can redistribute it and/or
   modify it under the terms of the GNU Lesser General Public
@@ -19,14 +19,13 @@
 #ifndef _BOARD_DEFINITIONS_H_
 #define _BOARD_DEFINITIONS_H_
 
-
 /*
  * USB device definitions
  */
 #define STRING_PRODUCT "Logger Zero"
 #define USB_VID_HIGH   0x23
 #define USB_VID_LOW    0x41
-#define USB_PID_HIGH   0xFF//0x02   //change product id to not confuse arduino
+#define USB_PID_HIGH   0xff//0x02   //change product id to not confuse arduino
 #define USB_PID_LOW    0x4D
 
 /*
@@ -70,10 +69,10 @@
  * LEDs definitions
  */
 #define BOARD_LED_PORT                    (0)
-#define BOARD_LED_PIN                     (21)
+#define BOARD_LED_PIN                     (22)
 
-#define BOARD_LEDRX_PORT                  (1)
-#define BOARD_LEDRX_PIN                   (15)
+//#define BOARD_LEDRX_PORT                  (0)
+//#define BOARD_LEDRX_PIN                   (21)
 
 //#define BOARD_LEDTX_PORT                  (0)
 //#define BOARD_LEDTX_PIN                   (12)
