@@ -3,7 +3,7 @@
         {
             "name": "Workshop11",
             "maintainer": "Workshop11",
-            "websiteURL": "https://github.com/DylanMissu",
+            "websiteURL": "https://github.com/dylanmsu",
             "email": "dylan.missu@gmail.com",
             "platforms": [
             {
@@ -11,7 +11,7 @@
                 "architecture": "samd",
                 "version": "0.0.2",
                 "category": "Contributed",
-                "url": "https://github.com/DylanMissu/ArduinoCore-samd/releases/download/0.0.2/Workshop11Core-samd.zip",
+                "url": "https://github.com/dylanmsu/ArduinoCore-samd/releases/download/0.0.2/Workshop11Core-samd.zip",
                 "archiveFileName": "Workshop11Core-samd.zip",
                 "checksum": "SHA-256:560C146E2417F31667027A039E64A857A2A6499C70EBF83CF2BD883353CF294D",
                 "size": "32314400",
