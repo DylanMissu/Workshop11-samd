@@ -11,7 +11,7 @@
                 "architecture": "samd",
                 "version": "0.0.2",
                 "category": "Contributed",
-                "url": "https://github.com/dylanmsu/ArduinoCore-samd/releases/download/0.0.2/Workshop11Core-samd.zip",
+                "url": "https://github.com/dylanmsu/Workshop11-samd/releases/download/0.0.2/Workshop11Core-samd.zip",
                 "archiveFileName": "Workshop11Core-samd.zip",
                 "checksum": "SHA-256:560C146E2417F31667027A039E64A857A2A6499C70EBF83CF2BD883353CF294D",
                 "size": "32314400",
